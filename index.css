@@ -1,0 +1,224 @@
+:root{
+    --allwords:hsl(0, 0%, 41%);
+}
+
+
+body{
+    background:hsl(0, 0%, 98%);
+}
+
+
+
+.btn-outline-secondary{
+    width:100%;
+    
+}
+
+.conti{
+margin-top:60px;
+}
+
+h1{
+    font-size:50px;
+    text-align: center;
+    margin:30px auto 30px;
+}
+p{
+    text-align: center;
+    font-size: 18px;
+  
+}
+
+.btn-dark{
+    margin:30px auto;
+}
+
+
+.ico{
+    margin-right: 10px;
+}
+
+.expo{
+    display: flex;
+    flex-direction: column;
+}
+
+.log{
+    height:30%;
+    width:30%;
+    margin-right:10px;
+}
+
+
+/*responsive design for screens with width larger than 912px*/
+@media screen and (min-width:912px){
+    .conti{
+        display: flex;
+        flex-direction: row-reverse;
+        margin: 2em 200px;
+        justify-content: space-between;
+    }
+
+
+    .mob-img img{
+        content: url("images/image-hero-desktop.png");
+        height:100%;
+        width:80%;
+        position: relative;
+        left:140px;
+    }
+
+    .expo{
+        display: block;
+        justify-content: space-evenly;
+       
+    }
+    .conti{
+        margin-top:60px;
+    }
+
+    h1{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 700;
+        text-align: left;
+        
+     }
+
+     p{
+        width:4;
+        line-height: 20px;
+        color:hsl(0, 0%, 41%);
+        text-align: left;
+     }
+
+    h1,p,#stu-btn{
+
+         position: relative;
+         top: 20%;
+         
+             }
+
+    
+
+    .log{
+        height:50%;
+        width:100%;
+        margin-right:10px;
+    }
+
+    div .d-flex{
+        display: flex;
+        justify-content: space-evenly;
+        position: absolute;
+        bottom:0;
+    
+    }
+    
+}
+
+
+
+
+
+/*this is the closest thing ever to a complete
+responsive design project that i've done.
+it's still not appealing on all screens but this is the level i'm at apparently till i learn more techniques cuz i didnt go with the originally intended design*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
